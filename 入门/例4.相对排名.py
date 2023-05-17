@@ -44,6 +44,7 @@ if __name__ == '__main__':
     print("Input: ", num)
     print("Output: ", solution.findRelativeRanks(num))
 
+    
 
 # 运行结果
 # Input:  [5, 4, 3, 2, 1]
