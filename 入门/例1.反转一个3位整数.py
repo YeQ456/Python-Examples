@@ -15,7 +15,8 @@ class Solution:
         b = int(number % 100 / 10)       # 十位数
         c = int(number % 10)             # 个位数
         return(100 * c + 10 * b + a)     # 反转：个位数*100 + 十位数*10 + 百位数
-    
+ 
+# 主函数
 if __name__ == '__main__':
     solution = Solution()
     num = 123
